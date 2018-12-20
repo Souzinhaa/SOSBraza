@@ -1,0 +1,205 @@
+body{
+    background-color:cornflowerblue ;
+    font-family: arial, sans-serif;
+}
+
+p{
+    font-size: 10pt;
+}
+
+header{
+    margin: -10px 250px 0px 250px;
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0px 1px 1px black;
+}
+
+header img{
+    position: relative;
+    margin: 0px 256px -4px 256px;
+}
+
+div#menu {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+div#menu p#boo1{
+    font-size: 14pt;
+    position:absolute;
+    margin-top: 20px;
+}
+
+div#menu p#boo2{
+    font-size: 14pt;
+    position:absolute;
+    margin-top: 60px;
+}
+
+div#menu p#boo3{
+    font-size: 14pt;
+    position:absolute;
+    margin-top: 100px;
+}
+
+.botE{
+    margin-left: 125px;
+    text-decoration: none;
+    color: black;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.botE:hover {
+    color: darkgreen;
+    border: 1px solid black;
+    background-image: url(Imagens/MONEY-BACK.jpg);
+    text-shadow: 1px 1px 1px white;
+}
+
+.botD{
+    margin-left: 340px;
+    text-decoration: none;
+    color: black;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.botD:hover {
+    color: darkgreen;
+    border: 1px solid black;
+    background-image: url(Imagens/MONEY-BACK.jpg);
+    text-shadow: 1px 1px 1px white;
+}
+
+a#bot1{
+    margin-left: 125px;
+    padding-left: 21px;
+    padding-right: 22px;
+}
+
+a#bot2{
+    margin-left: 125px;
+    padding-left: 31px;
+    padding-right: 30px;
+}
+
+section h2{
+    float: right;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+section h3{
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+section h4{
+    float: left;
+    margin-left: -200px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+section{
+    margin: 0px 250px 0px 250px;
+    background-color: rgba(149, 240, 251, .5);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+div#products table, tr, td {
+    margin-right: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+div#products td{
+    margin: 0px;
+    padding: 5px; 
+}
+
+div#products a.ED{
+    color: mediumblue;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+div#products a.ED:hover{
+    color: rgb(0, 0, 136);
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+div#products a.center{
+    color: rgb(255, 4, 11);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+div#products a.center:hover{
+    color: rgb(198, 0, 5);
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+.proDuto b{
+    font-size: 14pt;
+}
+
+.proDuto p{
+    font-size: 10pt;
+}
+
+.proDuto img{
+    width: 180px;
+    height: 180px;
+}
+
+.compra {
+    border: 10px solid rgba(0, 0, 0, .3);
+    margin: 20px 0px 0px 20px;
+}
+
+.nomeCompr {
+    background-color: #fff;
+    padding: 5px;
+    padding-left: 180px;
+    border: 1px solid black;
+    float:right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nomeCompr p#me2{
+    margin-left: 65px;
+    font-size: 12pt;
+    color: red;
+    background-color: yellow;
+}
+
+.nomeCompr p#me1{
+    margin-left: 69px;
+    font-size: 10pt;
+    color: mediumblue;
+}
+
+.nomeCompr h2{
+    margin-bottom: 10px;
+}
+
+footer{
+    margin: 0px 250px 0px 250px;
+    background-color: rgba(242, 98, 101, .7);
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 1px black;
+    padding: 10px;
+    text-align: center;
+}
